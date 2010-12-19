@@ -7,6 +7,7 @@ WriteMakefile(
     AUTHOR              => 'Brad McConahay N8QQ <brad@n8qq.com>',
     VERSION_FROM        => 'lib/Ham/Reference/Solar.pm',
     ABSTRACT_FROM       => 'lib/Ham/Reference/Solar.pm',
+    LICENSE             => 'artistic2',
     PL_FILES            => {},
     PREREQ_PM => {
 		'LWP::UserAgent' => 0,

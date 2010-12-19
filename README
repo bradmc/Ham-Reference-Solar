@@ -1,25 +1,17 @@
-Ham::Reference::Solar 0.02
-
 NAME
     Ham::Reference::Solar - Get basic solar data from the web that's useful
     for Amateur Radio applications.
 
 VERSION
-    Version 0.02
+    Version 0.03
 
 INSTALLATION
     To install this module, run the following commands:
 
-	perl Makefile.PL
-	make
-	make test
-	make install
-
-SUPPORT AND DOCUMENTATION
-    After installing, you can find documentation for this module with the
-    perldoc command.
-
-    perldoc Ham::Reference::Solar
+    perl Makefile.PL
+    make
+    make test
+    make install
 
 SYNOPSIS
       use Ham::Reference::Solar;
@@ -140,10 +132,13 @@ DATA ITEMS
         Time of the last update.
 
 TODO
-    * Convert date to something more useful.
-    * Add more data items.
-    * Improve documentation and error checking.
-    * Maybe improve the synopsis.
+    *   Convert date to something more useful.
+
+    *   Add more data items.
+
+    *   Improve documentation and error checking.
+
+    *   Maybe improve the synopsis.
 
 ACKNOWLEDGEMENTS
     This module gets its data from WM7D's Solar Resource Page at
@@ -153,8 +148,13 @@ AUTHOR
     Brad McConahay N8QQ <brad@n8qq.com>
 
 COPYRIGHT AND LICENSE
-    Copyright 2008 Brad McConahay N8QQ, all rights reserved.
+    "Ham::Reference::Solar" is Copyright (C) 2008-2010 Brad McConahay N8QQ.
 
-    This program is free software; you can redistribute it and/or modify it
-    under the same terms as Perl itself.
+    This module is free software; you can redistribute it and/or modify it
+    under the terms of the Artistic License 2.0. For details, see the full
+    text of the license in the file LICENSE.
+
+    This program is distributed in the hope that it will be useful, but it
+    is provided "as is" and without any express or implied warranties. For
+    details, see the full text of the license in the file LICENSE.
 

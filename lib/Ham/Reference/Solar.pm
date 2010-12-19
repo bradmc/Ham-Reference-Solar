@@ -2,15 +2,19 @@ package Ham::Reference::Solar;
 
 # --------------------------------------------------------------------------
 # Ham::Reference::Solar - A scraper to return solar data useful for
-# Amateur Radio application.
+# Amateur Radio applications.
 #
-# Copyright (c) 2008 Brad McConahay N8QQ.  All rights reserved.
+# Copyright (c) 2008-2010 Brad McConahay N8QQ.
 # Cincinnat, Ohio USA
 #
-# It may be used and modified freely, but I do request that this copyright
-# notice remain attached to the file.  You may modify this module as you 
-# wish, but if you redistribute a modified version, please attach a note
-# listing the modifications you have made.
+# This module is free software; you can redistribute it and/or
+# modify it under the terms of the Artistic License 2.0. For
+# details, see the full text of the license in the file LICENSE.
+# 
+# This program is distributed in the hope that it will be
+# useful, but it is provided "as is" and without any express
+# or implied warranties. For details, see the full text of
+# the license in the file LICENSE.
 # --------------------------------------------------------------------------
 
 use strict;
@@ -18,7 +22,7 @@ use warnings;
 require LWP::UserAgent;
 use vars qw($VERSION);
 
-our $VERSION = '0.02';
+our $VERSION = '0.03';
 
 my $solar_url = 'http://www.wm7d.net/hamradio/solar';
 my $site_name = 'wm7d.net';
@@ -193,7 +197,7 @@ Ham::Reference::Solar - Get basic solar data from the web that's useful for Amat
 
 =head1 VERSION
 
-Version 0.02
+Version 0.03
 
 =head1 SYNOPSIS
 
@@ -363,8 +367,13 @@ Brad McConahay N8QQ <brad@n8qq.com>
 
 =head1 COPYRIGHT AND LICENSE
 
-Copyright 2008 Brad McConahay N8QQ, all rights reserved.
+C<Ham::Reference::Solar> is Copyright (C) 2008-2010 Brad McConahay N8QQ.
 
-This program is free software; you can redistribute it and/or modify it
-under the same terms as Perl itself.
+This module is free software; you can redistribute it and/or
+modify it under the terms of the Artistic License 2.0. For
+details, see the full text of the license in the file LICENSE.
 
+This program is distributed in the hope that it will be
+useful, but it is provided "as is" and without any express
+or implied warranties. For details, see the full text of
+the license in the file LICENSE.

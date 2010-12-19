@@ -10,3 +10,9 @@ Revision history for Ham-Reference-Solar
         - Changed get_hash_ref function to get_hashref.
         - Removed the items() function since it's no longer used.
         - Made numerous minor documentation changes.
+
+0.03    2010-12-19 Sun
+        - Added LICENSE file, and changed docs and configs to use the Artistic 2.0
+          license.
+        - Start git repository for this module.
+
